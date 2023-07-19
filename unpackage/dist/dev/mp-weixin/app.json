@@ -1,0 +1,96 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/union/union",
+    "pages/production/production",
+    "pages/data/data",
+    "pages/my/my"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesUnion",
+      "pages": [
+        "strategyForm/strategyForm",
+        "alarmSetForm/alarmSetForm",
+        "logDetail/detail",
+        "warnDetail/detail"
+      ]
+    },
+    {
+      "root": "pagesProduction",
+      "pages": [
+        "productionList/productionList",
+        "clearPondForm/form",
+        "feedForm/form",
+        "medicationForm/form",
+        "fishForm/form",
+        "castForm/form",
+        "plantsForm/form",
+        "productionDetail/productionDetail"
+      ]
+    },
+    {
+      "root": "pagesMy",
+      "pages": [
+        "information/information",
+        "message/message",
+        "message/messageDetail",
+        "editPassword/editPassword"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#3474FF",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "./pagesMy/static/home.png",
+        "selectedIconPath": "./pagesMy/static/home-fill.png"
+      },
+      {
+        "text": "物联",
+        "pagePath": "pages/union/union",
+        "iconPath": "./pagesMy/static/union.png",
+        "selectedIconPath": "./pagesMy/static/union-fill.png"
+      },
+      {
+        "text": "生产",
+        "pagePath": "pages/production/production",
+        "iconPath": "./pagesMy/static/production.png",
+        "selectedIconPath": "./pagesMy/static/production-fill.png"
+      },
+      {
+        "text": "数据",
+        "pagePath": "pages/data/data",
+        "iconPath": "./pagesMy/static/data.png",
+        "selectedIconPath": "./pagesMy/static/data-fill.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "./pagesMy/static/my.png",
+        "selectedIconPath": "./pagesMy/static/my-fill.png"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pagesUnion/strategyForm/strategyForm": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    }
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

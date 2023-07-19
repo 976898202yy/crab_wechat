@@ -1,0 +1,18 @@
+.production-detail {
+  padding: 12px;
+}
+.production-detail .d-flex {
+  display: flex;
+}
+.production-detail .title {
+  font-size: 28rpx;
+  color: #1A7CF9;
+  margin-left: 2px;
+}
+.production-detail .u-form-item__body {
+  border: 1px solid #DADBDE;
+  border-radius: 2px;
+  padding: 10px !important;
+  margin-top: 12px;
+}
+

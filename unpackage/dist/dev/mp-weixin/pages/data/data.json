@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "数据可视化",
+  "navigationBarBackgroundColor": "#1A7CF9",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "u-subsection": "/uni_modules/uview-ui/components/u-subsection/u-subsection",
+    "qiun-data-charts": "/uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts",
+    "u-empty": "/uni_modules/uview-ui/components/u-empty/u-empty",
+    "u-picker": "/uni_modules/uview-ui/components/u-picker/u-picker",
+    "input-picker": "/pages/union/component/inputPicker"
+  }
+}

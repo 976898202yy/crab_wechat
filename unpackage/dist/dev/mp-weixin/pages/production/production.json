@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "生产活动",
+  "navigationBarBackgroundColor": "#1A7CF9",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "uni-collapse": "/uni_modules/uni-collapse/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/uni_modules/uni-collapse/components/uni-collapse-item/uni-collapse-item",
+    "u-empty": "/uni_modules/uview-ui/components/u-empty/u-empty",
+    "u-action-sheet": "/uni_modules/uview-ui/components/u-action-sheet/u-action-sheet",
+    "input-picker": "/pages/union/component/inputPicker"
+  }
+}

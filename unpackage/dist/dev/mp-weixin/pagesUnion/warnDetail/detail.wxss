@@ -1,0 +1,10 @@
+.warn-detail {
+  padding: 10px 0 10px 20px;
+}
+.warn-detail .u-form-item__body {
+  padding: 16px 0 !important;
+}
+.warn-detail .u-form-item__body__right {
+  margin-right: 20px;
+}
+

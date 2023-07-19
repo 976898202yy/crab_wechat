@@ -1,0 +1,32 @@
+
+page{
+	background-color: #ECF1FD;
+}
+
+.strategy-form .bg-white {
+  background-color: #fff;
+}
+.strategy-form .strategy-form-top {
+  padding: 15px 10px 8px;
+}
+.strategy-form .form-content {
+  margin: 8px 0;
+  padding: 0 10px;
+}
+.strategy-form .form-top {
+  font-size: 28rpx;
+  color: #999;
+}
+.strategy-form .padding-10 {
+  padding: 10px;
+}
+.strategy-form .blue {
+  color: #1A7CF9;
+}
+.strategy-form .red {
+  color: #FF2442;
+}
+.strategy-form .d-flex {
+  display: flex;
+}
+

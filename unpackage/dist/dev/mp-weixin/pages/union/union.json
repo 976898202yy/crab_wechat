@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "物联网监测",
+  "navigationBarBackgroundColor": "#1A7CF9",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "input-picker": "/pages/union/component/inputPicker",
+    "union-tabs": "/pages/union/component/union-tabs"
+  }
+}

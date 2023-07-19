@@ -1,0 +1,18 @@
+.feed-form .content {
+  border-top: 10px solid #F3F4F5;
+  padding: 10px;
+}
+.feed-form .u-form-item__body {
+  padding: 16px 0 !important;
+}
+.feed-form .u-form-item:nth-child(5) .item__body__right__content__icon,
+.feed-form .u-form-item:nth-child(6) .item__body__right__content__icon {
+  width: 100px;
+  border: 1px solid #DADBDE;
+  height: 30px;
+}
+.feed-form .u-form-item:nth-child(5) .item__body__right__content__icon .u-input,
+.feed-form .u-form-item:nth-child(6) .item__body__right__content__icon .u-input {
+  height: 30px;
+}
+

@@ -1,0 +1,30 @@
+.cast-form .content {
+  border-top: 10px solid #F3F4F5;
+  padding: 10px;
+}
+.cast-form .u-form-item__body {
+  padding: 16px 0 !important;
+}
+.cast-form .u-form-item:nth-child(5) .item__body__right__content__icon,
+.cast-form .u-form-item:nth-child(6) .item__body__right__content__icon {
+  width: 100px;
+  border: 1px solid #DADBDE;
+  height: 30px;
+}
+.cast-form .u-form-item:nth-child(5) .item__body__right__content__icon .u-input,
+.cast-form .u-form-item:nth-child(6) .item__body__right__content__icon .u-input {
+  height: 30px;
+}
+.cast-form .u-form-item:nth-child(7) .item__body__right__content__icon {
+  width: 100px;
+  border: 1px solid #DADBDE;
+  height: 30px;
+}
+.cast-form .u-form-item:nth-child(7) .item__body__right__content__icon .u-input {
+  height: 30px;
+}
+.cast-form .u-form-item:nth-child(7) .item__body__right__content__icon .u-icon__icon {
+  top: -24px !important;
+  right: -84px;
+}
+

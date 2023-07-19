@@ -1,0 +1,44 @@
+
+page {
+	background-color: #ECF1FD;
+}
+
+.data {
+  padding: 10px;
+}
+.chart-box {
+  margin-top: 18px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  padding: 10px;
+}
+.chart-box .chart-title {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #191818;
+}
+.chart-box .title-right {
+  border: 1px solid #DADBDE;
+  padding: 2px 0 2px 12px;
+  font-size: 28rpx;
+  border-radius: 2px;
+}
+.chart-box .title-right .name {
+  max-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 6px;
+}
+.chart-box .box-item {
+  width: 100%;
+  height: 400rpx;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+.between {
+  justify-content: space-between;
+}
+

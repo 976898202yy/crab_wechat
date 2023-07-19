@@ -1,0 +1,16 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-empty": "/uni_modules/uview-ui/components/u-empty/u-empty",
+    "u-switch": "/uni_modules/uview-ui/components/u-switch/u-switch",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u-loadmore": "/uni_modules/uview-ui/components/u-loadmore/u-loadmore",
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal",
+    "u--form": "/uni_modules/uview-ui/components/u--form/u--form",
+    "u-form-item": "/uni_modules/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/uni_modules/uview-ui/components/u-input/u-input",
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text"
+  }
+}

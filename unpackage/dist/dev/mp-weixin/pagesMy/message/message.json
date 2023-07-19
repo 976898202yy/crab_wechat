@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "我的消息",
+  "navigationBarBackgroundColor": "#1A7CF9",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-badge": "/uni_modules/uview-ui/components/u-badge/u-badge",
+    "u-loadmore": "/uni_modules/uview-ui/components/u-loadmore/u-loadmore",
+    "u-empty": "/uni_modules/uview-ui/components/u-empty/u-empty"
+  }
+}

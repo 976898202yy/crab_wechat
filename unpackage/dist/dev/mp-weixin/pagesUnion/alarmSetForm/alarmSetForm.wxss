@@ -1,0 +1,8 @@
+.set-form .content {
+  border-top: 10px solid #F3F4F5;
+  padding: 10px;
+}
+.set-form .u-form-item__body {
+  padding: 16px 0 !important;
+}
+

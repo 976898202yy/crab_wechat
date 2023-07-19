@@ -1,0 +1,12 @@
+.input-picker {
+  font-family: 'PingFangSC-Medium' !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input-picker .u-input--radius {
+  box-shadow: 0 2px 7px #C3D6EF;
+  border-radius: 8px;
+  height: 38px;
+}
+

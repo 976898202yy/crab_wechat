@@ -1,0 +1,268 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "大闸蟹平台",
+				"navigationBarBackgroundColor": "#1A7CF9",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+		    "path" : "pages/login/login",
+		    "style" :                                                                                    
+		    {
+		        "navigationStyle": "custom",
+		        "enablePullDownRefresh": false
+		    } 
+		},
+		{
+			"path": "pages/union/union",
+			"style": {
+				"navigationBarTitleText": "物联网监测",
+				"navigationBarBackgroundColor": "#1A7CF9",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/production/production",
+			"style": {
+				"navigationBarTitleText": "生产活动",
+				"navigationBarBackgroundColor": "#1A7CF9",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/data/data",
+			"style": {
+				"navigationBarTitleText": "数据可视化",
+				"navigationBarBackgroundColor": "#1A7CF9",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#1A7CF9",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		}
+    ],
+	"subPackages":[
+		{
+			"root":"pagesUnion",
+			"pages":[{
+				"path": "strategyForm/strategyForm",
+				"style": {
+					"navigationBarTitleText": "添加控制策略",
+					"navigationBarBackgroundColor": "#1A7CF9",
+					"navigationBarTextStyle": "white",
+					"enablePullDownRefresh": false
+				}
+			},{
+				"path": "alarmSetForm/alarmSetForm",
+				"style": {
+					"navigationBarTitleText": "添加告警设置",
+					"navigationBarBackgroundColor": "#1A7CF9",
+					"navigationBarTextStyle": "white",
+					"enablePullDownRefresh": false
+				}
+			},{
+				"path": "logDetail/detail",
+				"style": {
+					"navigationBarTitleText": "操作日志详情",
+					"navigationBarBackgroundColor": "#1A7CF9",
+					"navigationBarTextStyle": "white",
+					"enablePullDownRefresh": false
+				}
+			},{
+				"path": "warnDetail/detail",
+				"style": {
+					"navigationBarTitleText": "告警记录详情",
+					"navigationBarBackgroundColor": "#1A7CF9",
+					"navigationBarTextStyle": "white",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root":"pagesProduction",
+			"pages":[{
+				"path": "productionList/productionList",
+				"style": {
+					"navigationBarTitleText": "生产活动",
+					"navigationBarBackgroundColor": "#1A7CF9",
+					"navigationBarTextStyle": "white",
+					"enablePullDownRefresh": false
+				}
+			},{
+				"path": "clearPondForm/form",
+				"style": {
+					"navigationBarTitleText": "清塘管理",
+					"navigationBarBackgroundColor": "#1A7CF9",
+					"navigationBarTextStyle": "white",
+					"enablePullDownRefresh": false
+				}
+			},{
+				"path": "feedForm/form",
+				"style": {
+					"navigationBarTitleText": "投喂管理",
+					"navigationBarBackgroundColor": "#1A7CF9",
+					"navigationBarTextStyle": "white",
+					"enablePullDownRefresh": false
+				}
+			},{
+				"path": "medicationForm/form",
+				"style": {
+					"navigationBarTitleText": "用药管理",
+					"navigationBarBackgroundColor": "#1A7CF9",
+					"navigationBarTextStyle": "white",
+					"enablePullDownRefresh": false
+				}
+			},{
+				"path": "fishForm/form",
+				"style": {
+					"navigationBarTitleText": "捕捞管理",
+					"navigationBarBackgroundColor": "#1A7CF9",
+					"navigationBarTextStyle": "white",
+					"enablePullDownRefresh": false
+				}
+			},{
+				"path": "castForm/form",
+				"style": {
+					"navigationBarTitleText": "投苗管理",
+					"navigationBarBackgroundColor": "#1A7CF9",
+					"navigationBarTextStyle": "white",
+					"enablePullDownRefresh": false
+				}
+			},{
+				"path": "plantsForm/form",
+				"style": {
+					"navigationBarTitleText": "水草管理",
+					"navigationBarBackgroundColor": "#1A7CF9",
+					"navigationBarTextStyle": "white",
+					"enablePullDownRefresh": false
+				}
+			},{
+				"path": "productionDetail/productionDetail",
+				"style": {
+					"navigationBarTitleText": "生产活动",
+					"navigationBarBackgroundColor": "#1A7CF9",
+					"navigationBarTextStyle": "white",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root":"pagesData",
+			"pages":[]
+		},
+		{
+			"root":"pagesMy",
+			"pages":[
+				{
+					"path": "information/information",
+					"style": {
+						"navigationBarTitleText": "个人资料",
+						"navigationBarBackgroundColor": "#1A7CF9",
+						"navigationBarTextStyle": "white",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "message/message",
+					"style": {
+						"navigationBarTitleText": "我的消息",
+						"navigationBarBackgroundColor": "#1A7CF9",
+						"navigationBarTextStyle": "white",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "message/messageDetail",
+					"style": {
+						"navigationBarTitleText": "消息详情",
+						"navigationBarBackgroundColor": "#1A7CF9",
+						"navigationBarTextStyle": "white",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "editPassword/editPassword",
+					"style": {
+						"navigationBarTitleText": "修改密码",
+						"navigationBarBackgroundColor": "#1A7CF9",
+						"navigationBarTextStyle": "white",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		}
+	],
+	"preloadRule":{
+		"pagesUnion/strategyForm/strategyForm": {
+			"network":"all",
+			"packages":["__APP__"]
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+		// "usingComponents":{
+		// 	"ec-canvas":"/pagesData/ec-canvas/ec-canvas"
+		// }
+	},
+	"tabBar":{
+		"color": "#666666",
+		"selectedColor":"#3474FF",
+		"list":[
+			{
+				"text": "首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"./pagesMy/static/home.png",
+				"selectedIconPath":"./pagesMy/static/home-fill.png"
+			},
+			{
+				"text": "物联",
+				"pagePath":"pages/union/union",
+				"iconPath":"./pagesMy/static/union.png",
+				"selectedIconPath":"./pagesMy/static/union-fill.png"
+			},
+			{
+				"text": "生产",
+				"pagePath":"pages/production/production",
+				"iconPath":"./pagesMy/static/production.png",
+				"selectedIconPath":"./pagesMy/static/production-fill.png"
+			},
+			{
+				"text": "数据",
+				"pagePath":"pages/data/data",
+				"iconPath":"./pagesMy/static/data.png",
+				"selectedIconPath":"./pagesMy/static/data-fill.png"
+			},
+			{
+				"text": "我的",
+				"pagePath":"pages/my/my",
+				"iconPath":"./pagesMy/static/my.png",
+				"selectedIconPath":"./pagesMy/static/my-fill.png"
+			}
+		]
+	}
+}

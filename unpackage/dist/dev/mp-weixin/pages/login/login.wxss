@@ -1,0 +1,63 @@
+.bg-img {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -1;
+}
+.login-bg {
+  font-family: 'PingFangSC-Medium' !important;
+  padding: 30% 30px 40px 30px;
+}
+.login-top {
+  color: #FFFFFF;
+  margin-bottom: 20%;
+  padding-left: 9px;
+}
+.user-info {
+  margin-bottom: 25%;
+}
+.fz-30 {
+  font-size: 60rpx;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+ .u-input__content__field-wrapper__field {
+  color: #FFFFFF !important;
+}
+.line {
+  margin: 0 auto;
+  height: 1px;
+  background-color: #009CFF;
+  margin-left: 8px;
+  margin-bottom: 40px;
+}
+.login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 94%;
+  padding: 6px;
+  color: #0097FA;
+  font-weight: bolder;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border-radius: 80rpx;
+}
+.footer {
+  margin-top: 12%;
+  font-size: 26rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .u-icon__icon {
+  margin-right: 8px;
+}
+.white {
+  color: #FFFFFF;
+}
+.orange {
+  color: #F6D866;
+}
+

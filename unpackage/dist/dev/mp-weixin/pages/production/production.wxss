@@ -1,0 +1,144 @@
+
+page {
+	background-color: #F0F1FB;
+}
+
+.production {
+  font-family: 'PingFangSC-Medium' !important;
+  padding: 12px 14px;
+}
+.production .d-flex {
+  display: flex;
+}
+.production .production-card {
+  margin: 12px 0;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+}
+.production .production-card .card-info {
+  padding: 12px 8px;
+  font-size: 28rpx;
+  line-height: 1.8;
+}
+.production .production-bottom {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 14px 0;
+}
+.production .production-bottom .btn {
+  background-color: #E3EFFE;
+  color: #1A7CF9;
+  border: none;
+  padding: 6px 12px;
+  font-size: 26rpx;
+  border-radius: 4px;
+}
+.production .production-bottom .btn:active {
+  background-color: #1A7CF9;
+  color: #FFFFFF;
+}
+.production .production-bottom .calendar {
+  margin: 20px 0 10px;
+}
+.production .production-bottom .calendar-box {
+  white-space: nowrap;
+  height: 70px;
+}
+.production .production-bottom .calendar-box .calendar-list {
+  padding: 0 8px;
+}
+.production .production-bottom .calendar-box .calendar-list:last-child {
+  padding: 0;
+}
+.production .production-bottom .calendar-box .calendar-list .calendar-item {
+  background-color: #F0F0F0;
+  padding: 4px 6px;
+  width: 44px;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 2;
+  margin-right: 12px;
+}
+.production .production-bottom .calendar-box .calendar-list .calendar-item:last-child {
+  margin-right: 0;
+}
+.production .production-bottom .active {
+  background-color: #1A7CF9 !important;
+  color: #FFFFFF !important;
+}
+.production .production-bottom .info-btn {
+  background-color: #F5F6FA;
+  border: 0;
+  border-radius: 18px;
+  width: 83%;
+  margin: 14px auto 0;
+  padding: 6px;
+  text-align: center;
+  color: #666666;
+  font-size: 28rpx;
+}
+.production .sheet-list {
+  padding: 30px 16px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.production .sheet-list .sheet-list-item {
+  width: 30%;
+  margin-top: 20px;
+}
+.production .u-action-sheet .u-icon--right {
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.production .uni-collapse-item__wrap {
+  height: auto;
+}
+.production .list-box {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 7px #C3D6EF;
+  margin: 12px;
+}
+.production .list-box .box-item {
+  border-bottom: 1px solid #EEEEEE;
+  padding: 12px;
+}
+.production .list-box .box-item:last-child {
+  border-bottom: 0;
+}
+.production .list-box .text-style {
+  font-size: 26rpx;
+  line-height: 1.6;
+  color: #A7A7A7;
+}
+.production .list-box .list-item {
+  width: 80%;
+  margin-left: 10px;
+}
+.production .list-box .list-item .item-top {
+  color: #1A7CF9;
+  line-height: 1.6;
+}
+.production .list-box .list-item .list-title {
+  font-size: 28rpx;
+  white-space: nowrap;
+  font-weight: bold;
+}
+.production .list-box .list-item .iten-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 97%;
+}
+.production .list-box .d-flex {
+  display: flex;
+}
+.production .list-box .around {
+  justify-content: space-around;
+}
+.production .list-box .m-l-10 {
+  margin-left: 10px;
+}
+

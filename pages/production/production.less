@@ -1,0 +1,151 @@
+@import url("../../style.less");
+
+.production{
+	font-family: @font-family !important;
+	padding: 12px 14px;
+	.d-flex{
+		display: flex;
+	}
+	.production-card{
+		margin: 12px 0;
+		border-radius: 8px;
+		background-color: @font-white;
+		.card-info{
+			padding: 12px 8px;
+			font-size: 28rpx;
+			line-height: 1.8;
+		}
+	}
+	.production-bottom{
+		background-color: @font-white;
+		border-radius: 8px;
+		padding: 14px 0;
+		.btn{
+			background-color: #E3EFFE;
+			color: @blue;
+			border: none;
+			padding: 6px 12px;
+			font-size: 26rpx;
+		    border-radius: 4px;
+		}
+		.btn:active{
+			background-color: @blue;
+			color: @font-white;
+		}
+		.calendar{
+			margin: 20px 0 10px;
+		}
+		.calendar-box{
+			white-space: nowrap;
+			height: 70px;
+			.calendar-list{
+				padding: 0 8px;
+				&:last-child{
+					padding: 0;
+				}
+				.calendar-item{
+					background-color: #F0F0F0;
+					padding: 4px 6px;
+					width: 44px;
+					border-radius: 8px;
+					text-align: center;
+					line-height: 2;
+					margin-right: 12px;
+					&:last-child{
+						margin-right: 0;
+					}
+				}
+			}
+		}
+		.active{
+			background-color: @blue !important;
+			color: @font-white !important;
+		}
+		.info-btn{
+			background-color: #F5F6FA;
+			border: 0;
+			border-radius: 18px;
+			width: 83%;
+			margin: 14px auto 0;
+			padding: 6px;
+			text-align: center;
+			color: #666666;
+			font-size: 28rpx;
+		}
+	}
+	.sheet-list{
+		padding: 30px 16px;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		flex-direction: row;
+		.sheet-list-item{
+			width: 30%;
+		    margin-top: 20px;
+		}
+	}
+	.u-action-sheet{
+		.u-icon--right{
+			justify-content: center;
+			margin-bottom: 30px;
+		}
+	}
+	.uni-collapse-item__wrap{
+		height: auto;
+	}
+	.list-box {
+		background-color: #fff;
+		border-radius: 8px;
+		box-shadow: 0 2px 7px #C3D6EF;
+		margin: 12px;
+	
+		.box-item {
+			border-bottom: 1px solid #EEEEEE;
+			padding: 12px;
+	
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+	
+		.text-style {
+			font-size: 26rpx;
+			line-height: 1.6;
+			color: #A7A7A7;
+		}
+	
+		.list-item {
+			width: 80%;
+			margin-left: 10px;
+	
+			.item-top {
+				color: #1A7CF9;
+				line-height: 1.6;
+			}
+	
+			.list-title {
+				font-size: 28rpx;
+				white-space: nowrap;
+				font-weight: bold;
+			}
+			.iten-info{
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				flex-direction: row;
+				width: 97%;
+			}
+		}
+		.d-flex {
+			display: flex;
+		}
+		.around {
+			justify-content: space-around;
+		}
+		.m-l-10{
+			margin-left: 10px;
+		}
+	}
+	// .uni-collapse-item__wrap{
+	// 	height: auto !important;
+	// }
+}

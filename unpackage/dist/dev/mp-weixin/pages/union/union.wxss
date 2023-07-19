@@ -1,0 +1,13 @@
+
+page {
+	background-color: #F0F1FB;
+}
+
+.union {
+  font-family: 'PingFangSC-Medium' !important;
+  padding: 12px 14px;
+}
+.union .union-content {
+  margin: 10px 0;
+}
+

@@ -1,0 +1,31 @@
+.message {
+  border-top: 10px solid #F3F4F5;
+  padding: 10px;
+}
+.message .list-box {
+  padding: 16px;
+  border-bottom: 1px solid #EEEEEE;
+}
+.message .list-box .d-flex {
+  display: flex;
+}
+.message .list-box .between {
+  justify-content: space-between;
+}
+.message .list-box .list-item {
+  width: 82%;
+  margin-left: 10px;
+  height: 60px;
+  flex-direction: column;
+  justify-content: space-around;
+  display: flex;
+}
+.message .list-box .list-item .text-info {
+  font-size: 28rpx;
+  color: #999999;
+  margin-right: 6px;
+}
+.message .list-box:last-child {
+  border-bottom: 0;
+}
+

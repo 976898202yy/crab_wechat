@@ -1,0 +1,181 @@
+.union-tabs {
+  font-family: 'PingFangSC-Medium' !important;
+}
+.union-tabs .d-flex {
+  display: flex;
+}
+.union-tabs .center {
+  align-items: center;
+}
+.union-tabs .space-between {
+  justify-content: space-between;
+}
+.union-tabs .monitor {
+  margin: 16px 0;
+}
+.union-tabs .nowrap {
+  white-space: nowrap;
+}
+.union-tabs .hide {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.union-tabs .arrow {
+  border: 1px solid #999;
+  border-radius: 50%;
+  padding: 1px;
+}
+.union-tabs .arrow:active {
+  background-color: #999999;
+}
+.union-tabs .tab-box {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.union-tabs .tab-box .box-item {
+  margin-top: 16px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  width: 22%;
+}
+.union-tabs .tab-box .box-item:last-child:nth-child(3n + 2) {
+  margin-right: calc((100% - 31%) / 2);
+}
+.union-tabs .tab-box .environment {
+  padding: 10px 14px;
+}
+.union-tabs .tab-box .environment .env-data {
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+.union-tabs .tab-box .environment .env-data .evn-name {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 27rpx;
+  font-weight: bold;
+}
+.union-tabs .tab-box .environment .unit {
+  margin-top: 6px;
+  font-size: 23rpx;
+  color: #BBBBBB;
+}
+.union-tabs .tab-box .control {
+  padding: 4px 20px 6px 10px;
+}
+.union-tabs .tab-box .control .control-name {
+  font-weight: bold;
+  font-size: 27rpx;
+  margin-bottom: 8px;
+}
+.union-tabs .box {
+  margin: 12px 0;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.union-tabs .box .box-item {
+  padding: 20px 12px 0;
+}
+.union-tabs .box .box-item-2 {
+  padding: 20px 12px;
+}
+.union-tabs .u-empty__wrap {
+  margin-top: 20px;
+}
+.union-tabs .strategy-item .equ-name {
+  font-weight: bold;
+}
+.union-tabs .strategy-item .conditions {
+  font-size: 28rpx;
+}
+.union-tabs .strategy-item .conditions .conditions-list {
+  width: 100%;
+  padding-bottom: 12px;
+  justify-content: space-between;
+}
+.union-tabs .strategy-item .u-button--info {
+  background-color: #E3EFFE;
+  color: #1A7CF9;
+  border: none;
+}
+.union-tabs .strategy-item .u-button--error {
+  background-color: #FFE5E9;
+  color: #FF2442;
+  border: none;
+}
+.union-tabs .strategy-item uni-button:after {
+  border: 0;
+}
+.union-tabs .set {
+  position: relative;
+  padding-bottom: 36px;
+}
+.union-tabs .set .set-btn {
+  position: fixed;
+  bottom: 16px;
+  left: 0;
+  right: 0;
+}
+.union-tabs .u-button--mini {
+  padding: 12px 0;
+}
+.union-tabs .blue {
+  color: #1A7CF9;
+}
+.union-tabs .red {
+  color: #FF2442 !important;
+}
+.union-tabs .grey {
+  color: #BBBBBB;
+}
+.union-tabs .log {
+  background-color: #FFFFFF;
+  margin-top: 16px;
+  border-radius: 8px;
+  font-size: 28rpx;
+}
+.union-tabs .log .log-list-top {
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #1A7CF9;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.union-tabs .log .log-list-content {
+  height: 70vh;
+}
+.union-tabs .log .log-list-item {
+  padding: 12px 8px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.union-tabs .log-list {
+  height: 75vh;
+  padding: 5px 20px;
+}
+.union-tabs .log-list .list-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #f5f5f5;
+}
+.union-tabs .log-list .list-item .right {
+  color: #2D2D2D;
+  font-size: 26rpx;
+}
+.union-tabs .log-list .list-item .bottom-right {
+  text-align: right;
+  color: #C3C3C3;
+}
+.union-tabs .bold {
+  font-weight: 500;
+}
+.union-tabs .u-text__value--tips {
+  color: #606266;
+}
+
